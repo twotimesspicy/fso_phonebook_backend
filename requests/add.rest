@@ -1,0 +1,21 @@
+### Add hero
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-Type: application/json
+
+{
+    "name": "hero",
+    "number": "69-420"
+}
+
+### missing content
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-Type: application/json
+
+### name or number blank
+
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-Type: application/json
+
+{
+    "name": "hero"
+}
